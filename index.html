@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Build your Burger!</h1>
+        <form action="" id="form">
+            <h2>Real men prefer large</h2>
+            <label>
+                Small
+                <input type="radio" name="size" value="small">
+            </label>
+            <label>
+                Large
+                <input type="radio" name="size" value="large" checked>
+            </label>
+            <h2>Select stuffing</h2>
+            <label>
+                Cheese
+                <input type="radio" name="stuffing" value="cheese" checked>
+            </label>
+            <label>
+                Potato
+                <input type="radio" name="stuffing" value="potato">
+            </label>
+            <label>
+                Salad
+                <input type="radio" name="stuffing" value="salad">
+            </label>
+            <h2>Don't forget toppings!</h2>
+            <label>
+                Spice
+                <input type="checkbox" name="toppings" value="spice">
+            </label>
+            <label>
+                Mayo
+                <input type="checkbox" name="toppings" value="mayo">
+            </label>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div id="order"></div>
+    <script src="main.js"></script>
+</body>
+</html>
